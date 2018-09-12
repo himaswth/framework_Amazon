@@ -17,7 +17,7 @@ public class Example {
 		driver.findElement(By.cssSelector("#nav-link-accountList")).click();
 		driver.findElement(By.id("ap_email")).sendKeys("hima.swth@gmail.com");
 		driver.findElement(By.cssSelector("#continue[type=\"submit\"]")).click();
-		driver.findElement(By.id("ap_password")).sendKeys("Swetha@1983");
+		driver.findElement(By.id("ap_password")).sendKeys("swetha");
 		driver.findElement(By.id("signInSubmit")).click();
 		
 		driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("laptop");
