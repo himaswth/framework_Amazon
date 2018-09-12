@@ -1,0 +1,17 @@
+[INFO ] 2018-09-11 16:04:23.313 [main] WebDriverUtil - In get driver method -browser:chrome
+[INFO ] 2018-09-11 16:04:40.154 [main] SignInTest - SignIn Test starting
+[INFO ] 2018-09-11 16:04:48.435 [main] WebDriverUtil - In get driver method -browser:chrome
+[INFO ] 2018-09-11 16:05:00.655 [main] HomePageTest - HomePage Test starting
+[INFO ] 2018-09-11 16:05:06.096 [main] WebDriverUtil - In get driver method -browser:chrome
+[INFO ] 2018-09-11 16:05:17.102 [main] HomePageTest - HomePage Test starting
+[INFO ] 2018-09-11 16:05:17.306 [main] WebDriverUtil - In get driver method -browser:chrome
+[INFO ] 2018-09-11 16:05:29.049 [main] AddToCartTest - addToCart Test starting
+[INFO ] 2018-09-11 16:05:29.063 [main] WebDriverUtil - In get driver method -browser:chrome
+[INFO ] 2018-09-11 16:10:59.474 [main] WebDriverUtil - In get driver method -browser:chrome
+[INFO ] 2018-09-11 16:11:09.759 [main] SignInTest - SignIn Test starting
+[INFO ] 2018-09-11 16:11:19.317 [main] WebDriverUtil - In get driver method -browser:chrome
+[INFO ] 2018-09-11 16:12:05.845 [main] WebDriverUtil - In get driver method -browser:chrome
+[INFO ] 2018-09-11 16:12:18.359 [main] SignInTest - SignIn Test starting
+[INFO ] 2018-09-11 16:12:33.914 [main] HomePageTest - HomePage Test starting
+[INFO ] 2018-09-11 16:12:39.972 [main] HomePageTest - SearchResults Test starting
+[INFO ] 2018-09-11 16:12:40.896 [main] AddToCartTest - addToCart Test starting

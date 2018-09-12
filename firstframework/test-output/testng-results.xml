@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="8" total="13" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35097" started-at="2018-09-11T23:12:05Z" finished-at="2018-09-11T23:12:40Z">
+    <groups>
+    </groups>
+    <test name="Resgression Test" duration-ms="35097" started-at="2018-09-11T23:12:05Z" finished-at="2018-09-11T23:12:40Z">
+      <class name="com.amazon.test.SearchResultsTest">
+        <test-method status="PASS" signature="searchResultsSelectionTest()[pri:3, instance:com.amazon.test.SearchResultsTest@7f0eb4b4]" name="searchResultsSelectionTest" duration-ms="921" started-at="2018-09-11T23:12:39Z" finished-at="2018-09-11T23:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResultsSelectionTest -->
+      </class> <!-- com.amazon.test.SearchResultsTest -->
+      <class name="com.amazon.test.AddToCartTest">
+        <test-method status="FAIL" signature="addToCartTest()[pri:4, instance:com.amazon.test.AddToCartTest@5c33f1a9]" name="addToCartTest" duration-ms="22" started-at="2018-09-11T23:12:40Z" finished-at="2018-09-11T23:12:40Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:882)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:104)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at com.amazon.pages.AddToCart.addToCart(AddToCart.java:35)
+at com.amazon.test.AddToCartTest.addToCartTest(AddToCartTest.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+      </class> <!-- com.amazon.test.AddToCartTest -->
+      <class name="com.amazon.test.HomePageTest">
+        <test-method status="PASS" signature="SearchTest()[pri:2, instance:com.amazon.test.HomePageTest@2b662a77]" name="SearchTest" duration-ms="6051" started-at="2018-09-11T23:12:33Z" finished-at="2018-09-11T23:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTest -->
+      </class> <!-- com.amazon.test.HomePageTest -->
+      <class name="com.amazon.test.SignInTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.amazon.test.SignInTest@57a3af25]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2018-09-11T23:12:05Z" finished-at="2018-09-11T23:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.amazon.test.SignInTest@57a3af25]" name="beforeTest" is-config="true" duration-ms="12482" started-at="2018-09-11T23:12:05Z" finished-at="2018-09-11T23:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="signInTest()[pri:1, instance:com.amazon.test.SignInTest@57a3af25]" name="signInTest" duration-ms="15555" started-at="2018-09-11T23:12:18Z" finished-at="2018-09-11T23:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+      </class> <!-- com.amazon.test.SignInTest -->
+      <class name="com.amazon.test.ShippingDetailsTest">
+        <test-method status="FAIL" signature="shippigDetailsTest()[pri:5, instance:com.amazon.test.ShippingDetailsTest@1623b78d]" name="shippigDetailsTest" duration-ms="9" started-at="2018-09-11T23:12:40Z" finished-at="2018-09-11T23:12:40Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.amazon.pages.ShippingDetails.shippingDetails(ShippingDetails.java:22)
+at com.amazon.test.ShippingDetailsTest.shippigDetailsTest(ShippingDetailsTest.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippigDetailsTest -->
+      </class> <!-- com.amazon.test.ShippingDetailsTest -->
+    </test> <!-- Resgression Test -->
+  </suite> <!-- Suite -->
+</testng-results>
