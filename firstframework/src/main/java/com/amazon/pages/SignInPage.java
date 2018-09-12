@@ -48,7 +48,7 @@ public class SignInPage extends HomePage{
 		emailId.sendKeys("hima.swth@gmail.com");
 		Thread.sleep(1000);
 		continueButton.click();
-		password.sendKeys("Swetha@1983");
+		password.sendKeys("swetha");
 		submitButton.click();
 		
 	}
